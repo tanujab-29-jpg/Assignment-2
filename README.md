@@ -1,17 +1,17 @@
-# Entertainment & Digital Experiences — Member-1
+# Entertainment & Digital Experiences — Member-2
 
 ## Topic
 **Entertainment & Digital Experiences**
 
 ## Four UI Templates
-1. **CineGo — Movie Ticket Booking** — `movie-ticket-booking/`
-   - Pages: Home, Movies, Select Seats, Payment
-2. **StreamBox — OTT Streaming** — `ott-streaming/`
-   - Pages: Home, Browse, Now Playing, Profile
-3. **TuneWave — Music Streaming** — `music-streaming/`
-   - Pages: Home, Library, Player, Playlist
-4. **Eventify — Event & Concert Booking** — `event-booking/`
-   - Pages: Home, Events, Select Seats, Ticket
+1. **GameZone — Gaming Discovery** — `gaming-hub/`
+   - Pages: Home, Game Store, Details, Library
+2. **PodSphere — Podcast Platform** — `podcast-player/`
+   - Pages: Home, Discover, Episode, Library
+3. **LivePass — Concert Booking** — `concert-booking/`
+   - Pages: Home, Events, Seat Map, Checkout
+4. **CreatorHub — Creator Studio** — `creator-studio/`
+   - Pages: Dashboard, Content, Analytics, Settings
 
 ## Research summary
 Modern entertainment interfaces commonly use discovery cards, personalization, sticky navigation, playback controls, booking flows, dashboards, responsive layouts and clear calls-to-action. These templates implement those patterns with original HTML, CSS and JavaScript.
@@ -23,7 +23,7 @@ Fork → Clone → Branch → Develop → Commit → Push → Pull Request → R
 Open any page's `index.html` in a modern browser.
 
 ## Main Dashboard
-The project now includes a root-level dashboard:
+The project includes a root-level dashboard:
 - `index.html` — Main project dashboard
 - `style.css` — Main dashboard glassmorphism styling
 - `script.js` — Main dashboard JavaScript interactions

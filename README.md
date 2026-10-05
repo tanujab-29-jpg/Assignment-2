@@ -1,17 +1,17 @@
-# Entertainment & Digital Experiences — Member-2
+# Entertainment & Digital Experiences — Member-3
 
 ## Topic
 **Entertainment & Digital Experiences**
 
 ## Four UI Templates
-1. **GameZone — Gaming Discovery** — `gaming-hub/`
-   - Pages: Home, Game Store, Details, Library
-2. **PodSphere — Podcast Platform** — `podcast-player/`
-   - Pages: Home, Discover, Episode, Library
-3. **LivePass — Concert Booking** — `concert-booking/`
-   - Pages: Home, Events, Seat Map, Checkout
-4. **CreatorHub — Creator Studio** — `creator-studio/`
-   - Pages: Dashboard, Content, Analytics, Settings
+1. **AniVerse — Anime Streaming** — `anime-streaming/`
+   - Pages: Home, Catalog, Now Playing, Watchlist
+2. **BookBeat — Audiobook Library** — `audiobook-library/`
+   - Pages: Home, Discover, Player, Library
+3. **SportPulse — Live Sports** — `sports-live/`
+   - Pages: Home, Matches, Match Center, Profile
+4. **CineClub — Cinema Membership** — `cinema-membership/`
+   - Pages: Home, Membership Benefits, Bookings, Account
 
 ## Research summary
 Modern entertainment interfaces commonly use discovery cards, personalization, sticky navigation, playback controls, booking flows, dashboards, responsive layouts and clear calls-to-action. These templates implement those patterns with original HTML, CSS and JavaScript.

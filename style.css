@@ -14,9 +14,7 @@
   --pink: #ff4fa3;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   min-height: 100vh;
@@ -76,9 +74,7 @@ body {
   transition: .25s;
 }
 
-.navbar nav a:hover {
-  color: white;
-}
+.navbar nav a:hover { color: white; }
 
 .container {
   width: min(1180px, 92%);
@@ -172,13 +168,9 @@ h1 {
   margin-bottom: 8px;
 }
 
-.hero-card strong {
-  font-size: 1.25rem;
-}
+.hero-card strong { font-size: 1.25rem; }
 
-section {
-  padding: 70px 0;
-}
+section { padding: 70px 0; }
 
 .section-heading {
   display: flex;
@@ -187,9 +179,7 @@ section {
   margin-bottom: 28px;
 }
 
-h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
-}
+h2 { font-size: clamp(2rem, 4vw, 3rem); }
 
 .status {
   color: #9fe5c0;
@@ -204,7 +194,7 @@ h2 {
 
 .project-card {
   padding: 25px;
-  min-height: 310px;
+  min-height: 330px;
   display: flex;
   flex-direction: column;
   transition: transform .25s, border-color .25s;
@@ -217,7 +207,16 @@ h2 {
 
 .project-icon {
   font-size: 2.4rem;
-  margin-bottom: 22px;
+  margin-bottom: 18px;
+}
+
+.project-type {
+  color: #91b5ff;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin-bottom: 8px;
 }
 
 .project-card h3 {
@@ -237,9 +236,7 @@ h2 {
   padding: 11px 14px;
 }
 
-.about-card {
-  padding: 35px;
-}
+.about-card { padding: 35px; }
 
 .about-card p:last-child {
   color: var(--muted);
@@ -254,14 +251,8 @@ footer {
 }
 
 @media (max-width: 900px) {
-  .hero {
-    grid-template-columns: 1fr;
-    padding-top: 40px;
-  }
-
-  .project-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .hero { grid-template-columns: 1fr; padding-top: 40px; }
+  .project-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 600px) {
@@ -271,17 +262,9 @@ footer {
     flex-direction: column;
   }
 
-  .navbar nav {
-    gap: 16px;
-  }
-
-  h1 {
-    font-size: 3rem;
-  }
-
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
+  .navbar nav { gap: 16px; }
+  h1 { font-size: 3rem; }
+  .project-grid { grid-template-columns: 1fr; }
 
   .section-heading {
     align-items: flex-start;
@@ -289,7 +272,5 @@ footer {
     flex-direction: column;
   }
 
-  .hero-card {
-    min-height: 300px;
-  }
+  .hero-card { min-height: 300px; }
 }
